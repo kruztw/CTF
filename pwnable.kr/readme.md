@@ -5,7 +5,7 @@ func(int key) 裡面使用到 gets 存在 buffer overflow
 
 利用 gdb 可以發現 overflowme 在 $ebp - 0x2c 
 
-![image]https://github.com/dreamisadream/CTF/blob/master/pwnable.kr/bof1.png)
+![image](https://github.com/dreamisadream/CTF/blob/master/pwnable.kr/bof1.png)
 
 因此只要塞超過 0x2c 就可以蓋到 ebp 、return address ...
 而 key 的位址在 ebp + 0x8
