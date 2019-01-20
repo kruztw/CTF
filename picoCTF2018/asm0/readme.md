@@ -6,7 +6,7 @@
 
 根據 4 得知，ebp + 0x8 存放 0xd8 , ebp + 0xc 存放 0x7a
 
-"""
+```
 asm0:
 	push	ebp
 	mov	ebp,esp
@@ -16,7 +16,7 @@ asm0:
 	mov	esp,ebp
 	pop	ebp	
 	ret                        ; 回傳 0x7a = 122
-"""
+```
 
 
 如果懶的看也可以直接執行
