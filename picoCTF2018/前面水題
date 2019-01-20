@@ -145,3 +145,16 @@ HTTp 有2個 login 其中一個的 password 就是 flag (pcap 可用 wireshark �
 caesar cipher 1
 簡單移位
 
+environ
+env 可查看環境變數
+
+hertz
+丟給 quipquip
+
+hex editor
+bless xxd bvi hexedit 是你朋友
+
+ssh-keyz
+ssh-keygen 將 ~/.ssh/id_rsa.pub 丟到遠端的 ~/.ssh/authorized_keys 即可
+~/.ssh/authorized_keys 相當於一個信任清單
+連線時，利用本機 id_rsa (private key) 與遠端 id_rsa.pub (public key) 驗證
