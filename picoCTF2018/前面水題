@@ -1,0 +1,130 @@
+Forensics Warmup 1
+
+認識兩個指令 1. unzip    2. eog   (是說點兩下就好了)
+
+
+
+Forensics Warmup 2
+
+file flag.png
+
+可以發現它是 JPEG 檔，改個副檔名就可以開了 （聽說 windows 可以直接開）
+
+
+
+General Warmup 1 
+
+考你知不知道 ascii ，google 一下就有惹
+
+
+
+General Warmup 2
+
+基底轉換，短除法
+
+
+
+General Warmup 3
+簡單基底轉換
+
+
+
+Resources
+睜大您的雙眼，看到了吧
+
+
+
+Reversing Warmup 1 
+檔案剛下載下來沒有執行權限，用 chmod +x <filename>
+
+
+
+Reversing Warmup 2
+base64 轉換，線上有很多工具可用
+
+簡單說說 base64 的目的，就是要讓不可視字元全部可打印出來好方便傳輸，特徵為 == (padding 用）
+
+
+
+Crypto Warmup 1
+encrypt( flag, key) = llkjmlmpadkkc
+
+其中 key = thisisalilkey
+
+encrypt 會輸出 flag 和 key 交集的字元 （例如 S 和 T 對應到 L，所以輸出 l )
+
+
+
+Crypto Warmup 2
+https://quipqiup.com/
+
+另外 flag 的開頭一定是 picoCTF{
+
+
+
+grep 1
+file ./file 顯示 file: ASCII text, with very long lines
+
+透過 grep 可輕鬆找出 flag
+
+cat ./file | grep CTF   (gedit 打開 ctrl+f 也是可)
+
+
+
+net cat - Points
+考你會不會 nc [destination] [port] 
+
+完整說明請看 man nc 
+
+
+
+HEEEEEEERE'S Johnny!
+試試 john the ripper
+
+
+
+strings
+strings 會將 file 內的可打印字串印出來，搭配 grep 會更好用
+
+
+
+pipe
+nc 上去就....
+
+透過 | (pipe) 將輸出導到 grep 就可找出 flag 了
+
+指令 1 | 指令 2  ( 將 指令1 的輸出作為指令 2 的輸入，並輸出指令 2 的執行結果
+
+
+
+Inspect Me
+F12 把能看的都看一遍就能找到了
+
+
+
+grep 2
+
+grep -r picoCTF  // -r => recursive
+
+
+
+Aca-Shell-A
+照著做，別忘了 whoami 這個指令！！
+
+
+
+Client Side is Still Bad
+看看原始碼吧，資料都放在 client side 了
+
+
+
+Desrouleaux
+
+第三個問題要注意
+
+1. 同一個 file_hash 代表同一個檔案 (共 7 個)
+
+2. "unique" destination ips a file is sent   (所以共有 9 個，不是 10 個)
+
+3. correct to 2 decimal places (修正到小數第二位 1.28 )
+
