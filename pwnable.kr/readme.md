@@ -14,5 +14,8 @@ func(int key) 裡面使用到 gets 存在 buffer overflow
 
 p32 為 pwntools 中一個實用的工具，可以將內容打包成 32-bit little endian 的形式
 
+note:
+如果顯示出來沒看到 gets 可輸入
+set disassembly-flavor intel
 
 
