@@ -128,3 +128,18 @@ Desrouleaux
 
 3. correct to 2 decimal places (修正到小數第二位 1.28 )
 
+Logon
+不管輸入什麼都能登入，但就是沒 flag
+看了原始馬和 cookie 後發現，cookie 中 admin 的 value 沒經過加密
+改成 true 重新整理就能拿到 flag 了 (password 竟然是明文!!)
+
+Reading Between the Eyes
+用 zsteg
+
+Recovering From the Snap
+可用 foremost 解
+
+admin panel 
+HTTp 有2個 login 其中一個的 password 就是 flag (pcap 可用 wireshark 開）
+
+
