@@ -158,3 +158,9 @@ ssh-keyz
 ssh-keygen 將 ~/.ssh/id_rsa.pub 丟到遠端的 ~/.ssh/authorized_keys 即可
 ~/.ssh/authorized_keys 相當於一個信任清單
 連線時，利用本機 id_rsa (private key) 與遠端 id_rsa.pub (public key) 驗證
+
+Mr. Robots
+robots.txt 有聽過嗎？ 
+
+No Login
+新增個 admin 的 cookie 就行了
