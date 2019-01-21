@@ -35,3 +35,5 @@ part_d:
 	pop	ebp                  
 	ret                         ; eax = 0x73 = 115
 ```
+
+也可以直接用 c 執行 (參考 assembly-0)
