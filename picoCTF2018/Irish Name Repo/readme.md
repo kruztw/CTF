@@ -6,8 +6,9 @@
 試了幾種後發現
 -- 和 ; 可以用
 ＃ 會出錯
-
+```
 ' or 1=1 --
 ' or 1=1 ;
 admin' --
 UNION SELECT * FROM users --
+```
