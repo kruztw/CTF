@@ -33,7 +33,7 @@ $rbp-0x29 塞入 00 (終止字元）
 ![image](https://github.com/dreamisadream/CTF/blob/master/picoCTF2018/leak-me/leakme3.png)
 
 ```
-所以輸出就會從 $rbp-0x30 開始往後印，直到終止字元
+因此輸出就會從 $rbp-0x30 開始往後印，直到終止字元
 
 password 就被 leak 出來了
 
