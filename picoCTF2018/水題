@@ -176,3 +176,8 @@ herz 2
 
 now you don't
 Stegsolve 到別的 color channel 就好了
+
+you cant see me
+ls -la 發現檔名為 .  
+不確定有幾個空個，所以直接 cat .*
+或是用 python 列出檔名
