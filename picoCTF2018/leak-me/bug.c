@@ -17,9 +17,9 @@ int main()
 
     return 0;
 }
-```
+
 echo "password" > password.txt
 gcc bug.c -o bug -fno-stack-protector
 ./bug
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-```
+
