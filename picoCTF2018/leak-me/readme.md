@@ -17,18 +17,22 @@ buffer 會在低位址    $rbp-0x30
 
 當輸入一堆 a 時，$rbp-0x30 ~ $rbp-0x2a 會被塞滿 61 (0x61 => a)
 $rbp-0x29 塞入 00 (終止字元）
-![image](https://github.com/dreamisadream/CTF/blob/master/picoCTF2018/leak-me/leakme1.png)
+```
 
+![image](https://github.com/dreamisadream/CTF/blob/master/picoCTF2018/leak-me/leakme1.png)
+```
 接著 bbbbbbbbb 會從 $rbp-0x29 開始塞
 所以 $rbp-0x29 ~ $rbp-0x21 為 62
 並在 $rbp-0x20 塞入 00
+```
 ![image](https://github.com/dreamisadream/CTF/blob/master/picoCTF2018/leak-me/leakme2.png)
-
+```
 而 $rbp-0x20 正好是 password 起始位址
 所以 00  就被 70 (0x70 => p ) 蓋掉了
+```
 ![image](https://github.com/dreamisadream/CTF/blob/master/picoCTF2018/leak-me/leakme3.png)
 
-
+```
 所以輸出就會從 $rbp-0x30 開始往後印，直到終止字元
 
 password 就被 leak 出來了
