@@ -3,6 +3,8 @@
 如果等於 greetingMessage 則印出 You are winner!
 ```
 
+![image](https://github.com/dreamisadream/CTF/blob/master/picoCTF2018/quackme/quackme1.png)
+
 ```
 說好的 flag 呢？
 試了之後就會發現，輸入了的字串即為 flag
