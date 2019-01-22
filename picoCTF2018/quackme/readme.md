@@ -12,4 +12,8 @@
 至於 0x8048858 的字串怎麼取得呢？
 1. IDA
 2. gdb
+
+note:
+greeting_message = key xor input
+input = key xor greeting_message
 ```
