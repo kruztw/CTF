@@ -24,8 +24,8 @@ The superblock is always located at byte offset 1024 from the beginning of the f
 
 因此只要在 0x438 (1024 + 56) 寫入 53 EF 即可  (可用 bless 完成）
 
-修復完成後，只須在 mount 到一個資料夾即可
+修復完成後，只須在 mount 到一個資料夾
 
-mount ./ext-super-magic.img ./mount 
+sudo mount ./ext-super-magic.img ./mount 
 
 就可以發現 flag.jpg
