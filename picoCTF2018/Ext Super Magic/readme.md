@@ -10,7 +10,7 @@ debugfs ./ext-super-magic.img
 
 由 hint 看來應該是 ext2 (應該還有其他判斷方式）
 
-![參考 ext2](https://www.nongnu.org/ext2-doc/ext2.html#S-MAGIC)
+[參考 ext2](https://www.nongnu.org/ext2-doc/ext2.html#S-MAGIC)
 
 在 superblock 有寫 
 The superblock is always located at byte offset 1024 from the beginning of the file
