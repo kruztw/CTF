@@ -11,7 +11,7 @@
 ' union select 1 from users;--
 admin'--
 
-2. password
+2. password injection
 
 ' or 1=1 ;--
 
