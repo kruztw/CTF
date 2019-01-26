@@ -181,3 +181,6 @@ you cant see me
 ls -la 發現檔名為 .  
 不確定有幾個空個，所以直接 cat .*
 或是用 python 列出檔名
+
+What's My Name?
+從 hint 可看出找 dns 就對了 or strings ./myname.pcap | grep CTF
