@@ -1,3 +1,4 @@
+```
 section .text	
 global asm2
 
@@ -26,3 +27,4 @@ part_b:
 然後輸出 *(ebp-0x4)
 
 輸出 ＝ 0x28 + 0xa1de // 0x76 + 1 = 392 
+```
