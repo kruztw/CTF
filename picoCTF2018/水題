@@ -184,3 +184,6 @@ ls -la 發現檔名為 .
 
 What's My Name?
 從 hint 可看出找 dns 就對了 or strings ./myname.pcap | grep CTF
+
+caesar cipher 2
+簡單移位 ( 因為是對 ascii 移位，所以每個字元位移量相同)
