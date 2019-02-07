@@ -187,3 +187,6 @@ What's My Name?
 
 caesar cipher 2
 簡單移位 ( 因為是對 ascii 移位，所以每個字元位移量相同)
+
+learn gdb
+裝個 gdb 看一下 flag buffer 就有 flag 了
