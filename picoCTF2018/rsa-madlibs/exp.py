@@ -1,7 +1,7 @@
 from pwn import *
 import binascii
 
-def chineseRemainderTheorem(am, b):
+def chineseRemainderTheorem(a, b):
 	if b == 0:
 		return (a, 1, 0)
 
