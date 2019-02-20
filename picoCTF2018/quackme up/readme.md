@@ -6,5 +6,5 @@
 那要怎麼跳過去呢？
 其實很簡單，只要改 puts 或 exit 的 got 表即可
 ```
-[got 介紹]http://brandon-hy-lin.blogspot.com/2015/12/shared-library-plt-got.html)
+[got 介紹](http://brandon-hy-lin.blogspot.com/2015/12/shared-library-plt-got.html)
 
