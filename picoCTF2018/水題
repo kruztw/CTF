@@ -194,3 +194,6 @@ learn gdb
 Malware Shops
 1. 5  (解法好像是看有幾種顏色)
 2. 找最近的
+
+Radix's Terminal
+提示已說明為 base64 加密，因此利用 IDA 將字串用 base64 解密即可得到 flag
