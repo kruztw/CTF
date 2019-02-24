@@ -13,7 +13,7 @@ sharecode 先 base64 解密，再用 AES-CTR mode 解密
 
 ```
 
-   (AES-CTR)[https://zh.wikipedia.org/wiki/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F#/media/File:Ctr_encryption.png]
+   [AES-CTR](https://zh.wikipedia.org/wiki/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F#/media/File:Ctr_encryption.png)
 
 ```
 
