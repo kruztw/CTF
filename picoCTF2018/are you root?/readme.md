@@ -13,4 +13,4 @@ name 隨便輸入，只要不蓋過 authority 的值即可
 note
 1. chunk 的大小會隨 name 的長度變化，64位元電腦最小的 chunk 大小為 0x20 
 ```
-(相關知識)[http://brieflyx.me/2016/heap/glibc-heap/]
+[相關知識](http://brieflyx.me/2016/heap/glibc-heap/)
