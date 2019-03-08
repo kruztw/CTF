@@ -200,3 +200,11 @@ Radix's Terminal
 
 Flaskcards
 flask 使用 {{ 變數名稱 }} 取得變數，其中 {{ config }} 會顯示相關設定
+
+assembly-4
+這題挺難分析的，所以我們直接輸出執行結果
+nasm -f elf32 comp.nasm
+gcc <filename>.c comp.o -m32
+
+note
+將 main 改成 foo 避免 aliasing 
