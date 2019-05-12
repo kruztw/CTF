@@ -1,0 +1,210 @@
+Forensics Warmup 1
+
+認識兩個指令 1. unzip    2. eog   (是說點兩下就好了)
+
+
+
+Forensics Warmup 2
+
+file flag.png
+
+可以發現它是 JPEG 檔，改個副檔名就可以開了 （聽說 windows 可以直接開）
+
+
+
+General Warmup 1 
+
+考你知不知道 ascii ，google 一下就有惹
+
+
+
+General Warmup 2
+
+基底轉換，短除法
+
+
+
+General Warmup 3
+簡單基底轉換
+
+
+
+Resources
+睜大您的雙眼，看到了吧
+
+
+
+Reversing Warmup 1 
+檔案剛下載下來沒有執行權限，用 chmod +x <filename>
+
+
+
+Reversing Warmup 2
+base64 轉換，線上有很多工具可用
+
+簡單說說 base64 的目的，就是要讓不可視字元全部可打印出來好方便傳輸，特徵為 == (padding 用）
+
+
+
+Crypto Warmup 1
+encrypt( flag, key) = llkjmlmpadkkc
+
+其中 key = thisisalilkey
+
+encrypt 會輸出 flag 和 key 交集的字元 （例如 S 和 T 對應到 L，所以輸出 l )
+
+
+
+Crypto Warmup 2
+https://quipqiup.com/
+
+另外 flag 的開頭一定是 picoCTF{
+
+
+
+grep 1
+file ./file 顯示 file: ASCII text, with very long lines
+
+透過 grep 可輕鬆找出 flag
+
+cat ./file | grep CTF   (gedit 打開 ctrl+f 也是可)
+
+
+
+net cat - Points
+考你會不會 nc [destination] [port] 
+
+完整說明請看 man nc 
+
+
+
+HEEEEEEERE'S Johnny!
+試試 john the ripper
+
+
+
+strings
+strings 會將 file 內的可打印字串印出來，搭配 grep 會更好用
+
+
+
+pipe
+nc 上去就....
+
+透過 | (pipe) 將輸出導到 grep 就可找出 flag 了
+
+指令 1 | 指令 2  ( 將 指令1 的輸出作為指令 2 的輸入，並輸出指令 2 的執行結果
+
+
+
+Inspect Me
+F12 把能看的都看一遍就能找到了
+
+
+
+grep 2
+
+grep -r picoCTF  // -r => recursive
+
+
+
+Aca-Shell-A
+照著做，別忘了 whoami 這個指令！！
+
+
+
+Client Side is Still Bad
+看看原始碼吧，資料都放在 client side 了
+
+
+
+Desrouleaux
+
+第三個問題要注意
+
+1. 同一個 file_hash 代表同一個檔案 (共 7 個)
+
+2. "unique" destination ips a file is sent   (所以共有 9 個，不是 10 個)
+
+3. correct to 2 decimal places (修正到小數第二位 1.28 )
+
+Logon
+不管輸入什麼都能登入，但就是沒 flag
+看了原始馬和 cookie 後發現，cookie 中 admin 的 value 沒經過加密
+改成 true 重新整理就能拿到 flag 了 (password 竟然是明文!!)
+
+Reading Between the Eyes
+用 zsteg
+
+Recovering From the Snap
+可用 foremost 解
+
+admin panel 
+HTTp 有2個 login 其中一個的 password 就是 flag (pcap 可用 wireshark 開）
+
+caesar cipher 1
+簡單移位
+
+environ
+env 可查看環境變數
+
+hertz
+丟給 quipquip
+
+hex editor
+bless xxd bvi hexedit 是你朋友
+
+ssh-keyz
+ssh-keygen 將 ~/.ssh/id_rsa.pub 丟到遠端的 ~/.ssh/authorized_keys 即可
+~/.ssh/authorized_keys 相當於一個信任清單
+連線時，利用本機 id_rsa (private key) 與遠端 id_rsa.pub (public key) 驗證
+
+Mr. Robots
+robots.txt 有聽過嗎？ 
+
+No Login
+新增個 admin 的 cookie 就行了
+
+Truly an Artist
+xxd 或 zsteg 都行
+
+blaise's cipher
+即 Vigenère Cipher 網路上有很多解密工具
+
+herz 2
+題目說頻率分析，基本上還是丟給 online decoder 處理就行了
+
+now you don't
+Stegsolve 到別的 color channel 就好了
+
+you cant see me
+ls -la 發現檔名為 .  
+不確定有幾個空個，所以直接 cat .*
+或是用 python 列出檔名
+
+What's My Name?
+從 hint 可看出找 dns 就對了 or strings ./myname.pcap | grep CTF
+
+caesar cipher 2
+簡單移位 ( 因為是對 ascii 移位，所以每個字元位移量相同)
+
+learn gdb
+裝個 gdb 看一下 flag buffer 就有 flag 了
+
+Malware Shops
+1. 5  (解法好像是看有幾種顏色)
+2. 找最近的
+
+Radix's Terminal
+提示已說明為 base64 加密，因此利用 IDA 將字串用 base64 解密即可得到 flag
+
+Flaskcards
+flask 使用 {{ 變數名稱 }} 取得變數，其中 {{ config }} 會顯示相關設定
+
+assembly-4
+這題挺難分析的，所以我們直接輸出執行結果
+nasm -f elf32 comp.nasm
+gcc <filename>.c comp.o -m32
+
+note
+將 main 改成 foo 避免 aliasing 
