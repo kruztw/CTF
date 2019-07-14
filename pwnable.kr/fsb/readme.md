@@ -23,7 +23,7 @@ fsb_ebp -> main_ebp -> 0x0
 ```
 
 note: <br>
-因為位址無法寫入 stack，所以得一次性寫入 (%n) ，這對於 ssh 來說，是辦不太到的(因為會超時)<br>
-因此必須先 ssh 過去，將 exp.py 寫在 /tmp ，在執行 <br>
+因為位址無法寫入 stack，所以得一次性寫入 (%n) ，這對於 ssh 來說，是辦不太到的(會超時)<br>
+因此必須先 ssh 過去，將 exp.py 寫在 /tmp ，再執行 <br>
 
 
