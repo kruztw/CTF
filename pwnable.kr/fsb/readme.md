@@ -1,6 +1,6 @@
 漏洞:<br>
 
-    1. print(buf) 存在 fsb 漏洞<br>
+    1. print(buf) 存在 fsb 漏洞
 
 解題流程:<br>
 
