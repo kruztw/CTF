@@ -41,7 +41,7 @@ int main()
       if(op < 3) 
           func[op-1]();
       else if(op == 4){
-	  cleanup(ctx);
+          cleanup(ctx);
           printf("Are you sure you want to exit? (y/n)");
           op = getchar();
           if (op == 'y') break;
@@ -79,28 +79,38 @@ void get_input(char *_buf, int _len)
 
 int echo1()
 {
+  puts("not supported");
+  return 0;
+}
+
+
+int echo2()
+{
   char buf [32];
+  
+  greetings();
+  get_input(buf, 32);
+  printf(buf);
+  byebye();
+  return 0;
+}
 
-  fptr[3];   //greetings
-  get_input(buf, 128);
+
+
+int echo3()
+{
+  char *buf;
+  
+  greetings();
+  buf = (char *)malloc(32);
+  get_input(buf,32);
   puts(buf);
-  fptr[4];   //byebye
+  free(buf);
+  byebye();
   return 0;
 }
 
 
-int echo2(void)
-{
-  puts("not supported");
-  return 0;
-}
-
-
-int echo3(void)
-{
-  puts("not supported");
-  return 0;
-}
 
 
 void cleanup(EVP_PKEY_CTX *ctx)
