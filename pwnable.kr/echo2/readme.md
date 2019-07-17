@@ -16,11 +16,9 @@ note:<br>
 
 詳情請見 exp1.py<br>
 
-
 <br>
 <br>
 方法二: <br>
-
 	先用 fsb leak 出 name 的位址，此時得自行觀察 stack 上是否有與 name 位址偏移量固定的值<br>
 	再利用 uaf 漏洞改寫 fptr ( echo2 用 o 表示 ) 的 chunk ， 將 greetings (fptr[3])  改為  name ，name 的內容為 shellcode<br>
 
