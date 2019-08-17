@@ -7,13 +7,14 @@
 
 
 問題點：
-	 	parsedBody = _.defaultsDeep({
+```
+	 	parsedBody = _.defaultsDeep({ 
           publiс: false,
           cоntent: '',
         }, JSON.parse(body))
+```
 
-
-參考 : https://kuhi.to/2019/08/15/redpwn-ctf-2019-writeup/#web-2
+參考 : (https://kuhi.to/2019/08/15/redpwn-ctf-2019-writeup/#web-2)[https://kuhi.to/2019/08/15/redpwn-ctf-2019-writeup/#web-2]
 
 
 note: burpsuite 修改會 bad json  不知道為什麼
