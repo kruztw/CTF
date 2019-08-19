@@ -4,9 +4,9 @@
 ```javascript
 	s = "vdDby72W15O2qrnJtqep0cSnsd3HqZzbx7io27C7tZi7lanYx6jPyb2nsczHuMec";
 	host = 'chall.2019.redpwn.net';
+	
 	f=>btoa(
-    [...btoa(f)].map(s=>String.fromCharCode(s.charCodeAt(0)+(location.host.charCodeAt(0)%location.host.charCodeAt(3))))
-    .join(''))
+                          [...btoa(f)].map(s=>String.fromCharCode(s.charCodeAt(0)+(location.host.charCodeAt(0)%location.host.charCodeAt(3)))).join(''))
 ```
 
 想法:<br>
