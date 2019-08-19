@@ -1,4 +1,4 @@
-![question](https://github.com/dreamisadream/CTF/tree/master/CTF_CONTEST/RedpwnCTF/web/ghast/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/RedpwnCTF/web/ghast/pic1.png)
 
 漏洞 :
 	admin 的 cookie 洩漏, 導致我們能用 admin 的身份登入, 看到一些資訊 <br>
