@@ -12,4 +12,4 @@
 	再轉成 ascii 就能拿到 flag 了 <br>
 	誰想得到阿 o(-\`д´- ｡) <br>
 
-![solve](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/RedpwnCTF/2019/forensics/EasyEncoding/pic2.png)
+![solve](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/RedpwnCTF/forensics/EasyEncoding/pic2.png)
