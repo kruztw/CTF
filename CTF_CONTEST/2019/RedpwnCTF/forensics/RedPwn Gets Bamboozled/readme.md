@@ -1,6 +1,6 @@
-![question](https://github.com/dreamisadream/CTF/tree/master/CTF_CONTEST/RedpwnCTF/forensics/RedPwn%20Gets%20Bamboozled/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/RedpwnCTF/forensics/RedPwn%20Gets%20Bamboozled/pic1.png)
 
-想法 : 
+想法 : <br>
 	開啟 data.txt 後看到 600 800 直覺想到圖片大小<br>
 	又看到一大堆 tuple 合理猜測是每個 pixel 的顏色<br>
 	(通常 tuple 要麼是座標要麼是顏色, 但重複次數太多不可能是座標) <br>
