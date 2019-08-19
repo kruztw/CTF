@@ -1,7 +1,7 @@
-漏洞 : 
+漏洞 : <br>
 	簡易版的 blind fsb 漏洞 <br>
 
-解題流程 :
+解題流程 :<br>
 	之所以說簡易版，是因為它沒有開 PIE 所以 got table 位址固定 <br>
 	怎麼知道沒開呢 ? <br>
 	因為 fsb 的格式通常是 scanf / read / fgets 伴隨 printf(buf) <br>
