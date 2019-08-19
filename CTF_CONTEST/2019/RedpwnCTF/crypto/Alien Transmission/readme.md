@@ -1,4 +1,4 @@
-![question](https://github.com/dreamisadream/CTF/tree/master/CTF_CONTEST/RedpwnCTF/crypto/Alien%20Transmission/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/RedpwnCTF/crypto/Alien%20Transmission/pic1.png)
 
 想法:
 	題目說 key 的長度為 38 且用 "։" 隔開 (注意 "։" 不是 ascii 的冒號, 而是 unicode 的 "։") <br>
