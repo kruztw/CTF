@@ -1,6 +1,6 @@
-![question](https://github.com/dreamisadream/CTF/tree/master/CTF_CONTEST/RedpwnCTF/forensics/EasyEncoding/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/RedpwnCTF/forensics/EasyEncoding/pic1.png)
 
-想法:
+想法:<br>
 	通靈
 
 解題流程:
