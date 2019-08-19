@@ -1,8 +1,8 @@
-漏洞 : lodash 版本過期
+漏洞 : <br>
+        lodash 版本過期, 存在 prototype pollution 問題
 
-存在 prototype pollution 問題
-
-利用 "constructor":{"prototype":{"public":true}} 可將所有的 object 的 public 設成 True
+解題流程<br>
+        利用 "constructor":{"prototype":{"public":true}} 可將所有的 object 的 public 設成 True
 
 
 
