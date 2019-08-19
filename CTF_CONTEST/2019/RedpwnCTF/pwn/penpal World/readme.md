@@ -1,7 +1,7 @@
-漏洞 : 
+漏洞 : <br>
 	free 後沒設成 NULL 導致 uaf 漏洞
 
-解題流程 :
+解題流程 :<br>
 	沒有 libc_base 就沒有 shell (heap 題目大多如此) <br>
 	所以第一步就是要 leak 出 libc_base <br>
 	這邊提供兩種想法 <br>
