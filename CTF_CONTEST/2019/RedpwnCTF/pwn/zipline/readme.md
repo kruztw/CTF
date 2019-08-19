@@ -1,7 +1,7 @@
-漏洞:
+漏洞:<br>
 	gets 存在 bof <br>
 
-解題流程:
+解題流程:<br>
 	這題有很多種解法，可以拿到 shell 也可以只讀 flag <br>
 	感覺拿到 shell 的很常見, 所以就簡單寫個只讀 flag  的 <br>
 	要讀取 flag 就是跳到 i_got_u 的 open 上面就行了<br>
