@@ -1,4 +1,4 @@
-![question](https://github.com/dreamisadream/CTF/tree/master/CTF_CONTEST/2019/RedpwnCTF/crypto/01000/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/RedpwnCTF/crypto/01000/pic1.png)
 
 想法:
 	一大堆 01 先轉成 ascii 再說 (bin2ascii)[https://www.rapidtables.com/convert/number/binary-to-ascii.html] <br>
