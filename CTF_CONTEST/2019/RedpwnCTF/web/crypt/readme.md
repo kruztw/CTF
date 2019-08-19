@@ -1,4 +1,4 @@
-![question](https://github.com/dreamisadream/CTF/tree/master/CTF_CONTEST/RedpwnCTF/web/crypt/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/RedpwnCTF/web/crypt/pic1.png)
 
 題目:
 ```javascript
@@ -9,7 +9,7 @@
     .join(''))
 ```
 
-想法:
-	1. 在 console 定義 decode (把 + 改成 -), 再輸入 decode(s)
-	2. 先 base64decode 再將每個字元減 ord('v')%ord('b') 再 base64decode
-	(我忘記當初為什麼要 base64decode , 也許它長得很 base64 吧...)
+想法:<br>
+	1. 在 console 定義 decode (把 + 改成 -), 再輸入 decode(s)<br>
+	2. 先 base64decode 再將每個字元減 ord('v')%ord('b') 再 base64decode<br>
+	(我忘記當初為什麼要 base64decode , 也許它長得很 base64 吧...)<br>
