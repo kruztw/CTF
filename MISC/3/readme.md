@@ -43,11 +43,11 @@
 
 ## 將該段萃取出來並反轉
 
-<b>dd if=file.None.0x826a7488.dat of=output bs=1 count=220</b>
+<b>dd if=file.None.0x826a7488.dat of=output bs=1 count=220</b><br>
 <b><output xxd -p | tac | xxd -r -p > output.rar</b>
 
 ## 剩餘工作
 
-<b>strings husky_memory.raw | grep password</b>
+<b>strings husky_memory.raw | grep password</b><br>
 <b>rar e output.rar (密碼: hu5ky_4nd_f0r3n51c)</b>
 
