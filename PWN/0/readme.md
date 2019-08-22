@@ -17,3 +17,27 @@ def to_double(data):
 	return "%.800f " % unpack("<d", p64(data))
 ```
 
+# format string buffer 
+
+def fmt(prev, value, idx, byte=1):
+	ln  = "%{}c%{}$ln"
+	n   = "%{}c%{}$n"
+	hn  = "%{}c%{}$hn"
+	hhn = "%{}c%{}$hhn"
+
+	op = {1:hhn, 2:hn, 4:n, 8:ln}
+	offset = {1: 0x100, 2: 0x10000, 4:0x100000000, 8:0x10000000000000000}
+	if value > prev:
+		return op[byte].format(value-prev, idx)
+	elif value == prev:
+		if byte==1:
+			return "%{}$hhn".format(idx)
+		elif byte == 2:
+			return "%{}$hn".format(idx)
+		elif byte == 4:
+			return "%{}$n".format(idx)
+		elif byte == 8:
+			return "%{}$ln".format(idx)
+	else:
+		return op[byte].format(value-prev+offset[byte], idx)
+
