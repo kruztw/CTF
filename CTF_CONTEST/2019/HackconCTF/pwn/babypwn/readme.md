@@ -1,6 +1,6 @@
 難度 :  :star: 
   
-漏洞 :
+漏洞 :<br>
       1. fgets(&input, 0x11, stdin); (bof) <br>
       2. 沒檢查 index 是否為負數<br>
      
