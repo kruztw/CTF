@@ -1,6 +1,6 @@
 難度 :  :star: :star::star:
   
-![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/HackconCTF/Stego/Gimp%20IT/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/HackconCTF/Stego/GIMP%20IT/pic1.png)
 
 解題流程:
     用 gimp 打開發現 Nothing here layer 但似乎沒什麼用 <br>
