@@ -5,5 +5,5 @@
 解題流程:
       [BrainFuck](http://bf.doleczek.pl/) -> [Malbolge](https://tio.run/#malbolge) -> [hex](https://www.rapidtables.com/convert/number/hex-to-ascii.html) -> reverse
       
-ed0c}t53b_5t1_t@_3b@b_3f@c_ht1w_3gAugnAl_c1r3t05e{kr4d
--> d4rk{e50t3r1c_lAnguAg3_w1th_c@f3_b@b3_@t_1t5_b35t}c0de
+ed0c}t53b_5t1_t@_3b@b_3f@c_ht1w_3gAugnAl_c1r3t05e{kr4d<br>
+-> <br>d4rk{e50t3r1c_lAnguAg3_w1th_c@f3_b@b3_@t_1t5_b35t}c0de
