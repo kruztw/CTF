@@ -2,7 +2,7 @@
   
 ![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/HackconCTF/reverse/babyrev/pic1.png)
 
-解題流程:
+解題流程:<br>
       用 ghidra 打開後發現 main 只讀取 user 然後就離開了<br>
       根據我打 pwn 的經驗, check 一定出現在 .fini_array <br>
       果不其然, .fini_array 有兩個函式, 一個是 check 另一個是 end <br>
