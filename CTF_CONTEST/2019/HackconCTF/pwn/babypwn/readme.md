@@ -18,7 +18,7 @@
   i = 5;                              rbp-0x48
 ```
 
-因此 input 會蓋到 i 和 fptr 最後一個 byte <br>
+ input 會蓋到 i 和 fptr 最後一個 byte <br>
 原本想說把 fptr 最後一個 byte  win 但看到 fgets 就死心了 <br>
 因為 fgets 會把最後一個字元的下一個填 \x00 , 如果填滿的話就把最後一個填 \x00 因此沒辦法用 <br>
 但沒關係，我們還有下一個漏洞 <br>
