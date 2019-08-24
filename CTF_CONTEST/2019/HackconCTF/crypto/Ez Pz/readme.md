@@ -2,8 +2,8 @@
   
   ![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/HackconCTF/crypto/Ez%20Pz/pic1.png)
 
-![question2]
-(https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/HackconCTF/crypto/Ez%20Pz/pic2.png)
+![question2](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/HackconCTF/crypto/Ez%20Pz/pic2.png)
+
 
 解題想法 : <br>
     猜測為 RSA 加密 (因為懂的不多，所以猜 RSA) <br>
