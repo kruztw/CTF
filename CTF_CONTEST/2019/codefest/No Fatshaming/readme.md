@@ -31,7 +31,7 @@ $("#login-form")["submit"]((result) => {
 一樣的話執行 login 否則執行 doLogin <br>
 而 login 會檢查 id 和 cck <br>
 其中, cck 由 factory 計算而來 <br>
-因此, 思緒就清楚了, <b>我們要的是 id cck 和 time</b>
+因此, 思緒就清楚了, <b>我們要的是 id cck 和 time</b><br>
 id 可以自行控制 , cck 由 id 和 time 決定 , 因此關鍵在 time <br>
 而我們得知 time 會在 setup 被用到, 所以設計自己的 setup 並輸入到 console <br>
 ```javascript=
