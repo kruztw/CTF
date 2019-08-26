@@ -1,6 +1,6 @@
 難度 :  :star:
   
-![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/codefest/Mail\ capture/pic1.png)
+![question](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/codefest/Mailcapture/pic1.png)
 
 解題流程: <br>
       透過文件格式可看出是 [uuencode](https://zh.wikipedia.org/wiki/Uuencode) <br>
