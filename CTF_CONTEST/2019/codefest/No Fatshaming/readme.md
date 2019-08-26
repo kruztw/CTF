@@ -68,4 +68,4 @@ function _build(value) {
 ```
 因為 _build 會用到 factory 所以 factory 也要一併傳入 <br>
 接著, 輸入 _build({"id":"1", "time": "剛剛接收到的"}) <br>
-最後, 將 username 也就是 id 輸入 1, 按 Log in! 就能成功進去了 , 但 flag 在 id=6 的身上 <br>
+最後, 將 username 也就是 id 輸入 1, 按 Log in! 就能成功登入了 , 但 flag 在 id=6 的身上 <br>
