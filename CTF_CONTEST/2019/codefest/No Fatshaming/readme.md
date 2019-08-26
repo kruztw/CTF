@@ -10,9 +10,9 @@
         很簡潔的網頁, 只有登入和註冊, 登入後什麼東西都沒有 <br>
         用 sqlmap 和 xss 都沒有結果, 只能開始看看前端的 code <br>
         發現它引入一個客製化的 challenge.js <br>
-        ![bug](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/codefest/No%20Fatshaming/bug.png)
+        ![bug](https://github.com/dreamisadream/CTF/blob/master/CTF_CONTEST/2019/codefest/No%20Fatshaming/bug.png)<br>
         進去一看發現是認證的 code , 認證 code 寫在前端往往不怎麼安全 <br>
-        首先, 命名的方式很差所以先[美化](http://www.jsnice.org/)一下
+        首先, 命名的方式很差所以先[美化](http://www.jsnice.org/)一下<br>
         美化後的結果放在 nice.js <br>
         從 nice.js 得知, 當按下 Log in! 後會去執行 setup
 ```javascript=
