@@ -2,7 +2,7 @@
   
 
 漏洞: <br>
-    1. memcmp(&g_buf, pw, len);  len 的長度超過 pw, 會導致 memory leak
+    1. memcmp(&g_buf, pw, len);  len 的長度超過 pw, 會導致 memory leak<br>
     2. scanf("%232s", box[i]+1); 存在 off-by-one
 
 
