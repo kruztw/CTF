@@ -23,6 +23,6 @@
     最後 trigger free 就能拿到 shell 了 <br>
     
     
-note:
+note:<br>
     這題說難不難, 但也沒有簡單到 welcome 的程度, N1CTF 水準真高 <br>
     
