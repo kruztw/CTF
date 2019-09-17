@@ -18,7 +18,7 @@ def to_double(data):
 ```
 
 # format string buffer 
-
+```python=
 def fmt(prev, value, idx, byte=1):
 	ln  = "%{}c%{}$ln"
 	n   = "%{}c%{}$n"
@@ -40,4 +40,4 @@ def fmt(prev, value, idx, byte=1):
 			return "%{}$ln".format(idx)
 	else:
 		return op[byte].format(value-prev+offset[byte], idx)
-
+```
