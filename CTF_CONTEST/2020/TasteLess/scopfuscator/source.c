@@ -1,3 +1,7 @@
+// remove the comment marks to try the first brute-force.
+// gcc source.c 
+// ./a.out
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -98,13 +102,13 @@ void unload_tmp4s() {
 int main() {
 
 	// first round we guess flag[1:3], so initialize them first.
-	flag[1] = flag[2] = flag[3] = '\x21';
+	//flag[1] = flag[2] = flag[3] = '\x21';
 
 	while (1) {
 
 		int yes = 1;
 
-		addFlag();
+		//addFlag();
 		printf("flag = %s\n", flag);
 
 		tmp0 = ~0;
@@ -137,13 +141,13 @@ int main() {
 		    }
 		}
 
-		/*
-		if (yes) {
+		
+		/*if (yes) {
 			printf("yes\n");
 			break;
 		}
-		break;
-		*/
+		break;*/
+		
 
 		if (!yes)
 			continue;
