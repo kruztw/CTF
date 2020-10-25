@@ -5,3 +5,4 @@
 |  2  | n 為特殊型態 |
 |  3  | lsb_oracle attack |
 |  4  | broadcast attack |
+|  5  | e 整除 phi(N) |
