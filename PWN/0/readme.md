@@ -17,6 +17,12 @@ def to_double(data):
 	return "%.800f " % unpack("<d", p64(data))
 ```
 
+# double to hex
+```python
+def double_to_hex(f):
+    return hex(struct.unpack('<Q', struct.pack('<d', float(f)))[0])
+```
+
 # format string buffer 
 ```python=
 def fmt(prev, value, idx, byte=1):

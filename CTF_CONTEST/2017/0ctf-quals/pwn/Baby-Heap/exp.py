@@ -1,3 +1,5 @@
+# libc2.27   md5: 50390b2ae8aaa73c47745040f54e602f
+
 from pwn import *
 
 libc = ELF('./libc.so.6')

@@ -1,0 +1,2 @@
+bash.i64 filter=lfs diff=lfs merge=lfs -text
+bash filter=lfs diff=lfs merge=lfs -text

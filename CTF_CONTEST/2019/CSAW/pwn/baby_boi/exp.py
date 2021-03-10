@@ -1,3 +1,5 @@
+# libc 2.27
+
 from pwn import *
 
 libc = ELF('./libc.so.6')

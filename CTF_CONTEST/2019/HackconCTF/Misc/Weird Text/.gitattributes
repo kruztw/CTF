@@ -1,0 +1,2 @@
+mysterious.txt filter=lfs diff=lfs merge=lfs -text
+pic1.png filter=lfs diff=lfs merge=lfs -text
